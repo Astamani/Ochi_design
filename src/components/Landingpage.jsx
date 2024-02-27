@@ -16,7 +16,7 @@ function Landingpage() {
           );
         })}
       </div>
-      <div className=' max-sm:flex-col border-t-[1px] border-zinc-800 max-sm:mt-60 max-sm:items-start max-2xl:mt-20 flex justify-between items-center px-10  py-3'>
+      <div className=' max-sm:flex-col border-t-[1px] border-zinc-800 max-sm:mt-60 max-sm:items-start max-2xl:mt-20 max-2xl:flex justify-between items-center px-10  py-3'>
         {['For public and private companies', 'From the first pitch to IPO'].map((item, index) => {
           return <p key={index} className='max-sm:py-5 text-md font-light tracking-tight'>{item}</p>
         })}
