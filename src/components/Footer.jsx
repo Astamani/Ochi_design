@@ -11,7 +11,7 @@ function Footer() {
                 </div>
                 <div className='w-1/2 h-[40vw] font-semibold'>
                     <h1 className='text-[8vw] leading-none font-custom'>PRESENTATIONS</h1>
-                    <div className='all_text flex gap-10'>
+                    <div className='all_text flex gap-36'>
                         <div>
 
                             <div className=''>
@@ -36,7 +36,7 @@ function Footer() {
                             </div>
                         </div>
                         <div className='flex flex-col'>
-                            <h6 className='py-9'>M:</h6>
+                            <h6 className='py-4'>M:</h6>
                             <span>Home</span>
                             <span>Services</span>
                             <span>Our work</span>

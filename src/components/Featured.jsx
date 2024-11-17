@@ -15,7 +15,7 @@ function Featured() {
                 <h1 className=' text-[4vw] tracking-tight'>Featured projects</h1>
             </dir>
             <div className='border-t-[1px] border-zinc-700 flex flex-col px-12'>
-                <div className='relative w-full  py-14 max-2xl:flex max-sm:flex-col gap-5'>
+                <div className='relative w-full  py-14 max-2xl:flex flex max-sm:flex-col gap-5'>
                     <motion.div onHoverStart={() => handleHover(0)} onHoverEnd={() => handleHoverEnd(0)} className='max-sm:w-full max-2xl:w-1/2'>
                         <div className='flex gap-3 items-center '>
                             <div className='w-4 h-4 bg-white rounded-full'></div>
@@ -121,7 +121,7 @@ function Featured() {
                 </div>
 
                 <div className='my-10 flex justify-center items-center'>
-                    <button className='max-sm:w-full max-2xl:w-[16vw] border-[1px] rounded-full py-[6px] uppercase'>VIew all casestydy</button>
+                    <button className='max-sm:w-full max-2xl:w-[16vw] border-[1px] rounded-full py-[10px] px-[30px] uppercase'>VIew all casestydy</button>
                 </div>
 
             </div>
